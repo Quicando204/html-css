@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links </title>
+    <style>
+
+        body{
+             font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        .especial{
+            font-weight: normal;
+
+
+        }
+        .especial::before{
+            content:'ღ ';
+        }
+        .especial::after {
+            content:' ღ';
+        }
+
+    </style>
+</head>
+<body>
+    <H1>Personalizando Links</H1>
+    <ul>
+        <li> <a href="https://www.youtube.com/ " target="_blank" class="especial">Youtube</a></li>
+        <li ><a href="https://www.facebook.com " target="_blank">Facebook</a></li>
+        <li ><a href="https://www.instagram.com" target="_blank" class="especial">Instagram</a></li>
+    </ul>
+</body>
+</html>
