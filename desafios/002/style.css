@@ -1,0 +1,85 @@
+@charset "UTF-8";
+* {
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  
+}
+@font-face {
+  font-family: "idroid";
+  src: url("fontes/idroid.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Idroid";
+  src: url("fontes/idroid.otf")format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#cabeca {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(89, 188, 133);
+  font-family: Arial, Helvetica, sans-serif;
+}
+section {
+  margin: 10px;
+}
+main {
+  text-align: justify;
+  text-indent: 10px;
+  background-color: white;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: -20px;
+  
+}
+main > section > h1 {
+  font-family: "idroid", sans-serif;
+  color: rgb(61, 195, 121);
+  text-align: left;
+}
+header {
+  background: linear-gradient(to bottom, #3bd17f, #207144);
+  margin: 0px;
+
+  
+}
+
+header > a {
+  margin: 3px;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+header > a:hover{
+  background-color:rgb(61, 195, 121);
+  text-decoration: underline ;
+  margin: 10px;
+  padding: 1px;
+
+}
+h1 {
+  text-align: center;
+  text-decoration: normal;
+  color: white;
+}
+
+main > section > h2 {
+  font-family: "Idroid", sans-serif;
+  color: rgb(61, 195, 121);
+  background: linear-gradient(to right, #7fe4ad, white);
+}
+.img{
+display: block;
+  text-align: center;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  width:"100%"
+}
