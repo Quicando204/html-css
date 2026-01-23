@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.h1{
+    outline: 100px solid blanchedalmond;
+    background-color: black;
+    color: white;
+
+}
+h2{
+    border: 100px solid blue;
+    background-color: black;
+    color: white;
+   
+}
+    label{
+        font-size: 30px;
+    }
